@@ -146,7 +146,7 @@ if __name__ == '__main__':
         final_s = 1.
         final_ge = 1.2
         reps = 1
-        params = {'n_jobs':12,'warmup':200,'simtime':10000,
+        params = {'n_jobs':4,'warmup':200,'simtime':10000,
                   'record_voltage':False,'ge':1.2,
                   'return_spiketimes':False,'calc_synchrony':True,
                   'pool':False,'synchrony_tlim':[0,5000]}

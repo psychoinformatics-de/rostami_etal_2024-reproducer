@@ -433,7 +433,7 @@ if __name__ == '__main__':
     ###################MODEL###############
     params = {'randseed':8721,'trials':150,'N_E':1200,'N_I':300,
                     'I_th_E':1.25,'I_th_I':0.78,'Q':6,'rs_stim_amp':0,
-                    'n_jobs':12,'conditions':[1,2,3]}
+                    'n_jobs':4,'conditions':[1,2,3]}
 
     settings = [{'randseed':7745,'jep':3.2,'jipratio':0.75,
         'condition_stim_amps':[0.05,.05,.05],'rs_stim_amp':0.1,

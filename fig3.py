@@ -155,7 +155,7 @@ def do_plot(params,file_name,axes=None,redo = False,plot = True,markersize = 0.5
 ########################################################################
 # network model and simulation parameters ##############################
 ########################################################################
-params = {'simtime':1000.,'n_jobs':12,'Q':50,'rate_kernel':50,'N_E':4000}
+params = {'simtime':1000.,'n_jobs':4,'Q':50,'rate_kernel':50,'N_E':4000}
 settings = [{'warmup':0, 'jipfactor':0.,'jep':3.7,'randseed':3,
              'focus_cluster':8,'focus_interval':[200,600],'focus_unit':6}, 
             {'warmup':0, 'jipfactor':0.75,'jep':8.,'randseed':5,

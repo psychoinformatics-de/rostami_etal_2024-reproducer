@@ -450,7 +450,7 @@ def _calc_population_decoding(original_params):
 def get_population_decoding(params,save = True,redo = False,
                             datafile = 'model_population_decoding_file'):
     """ get the time resolved population decoding for the model."""
-    ORG = Organiser(params,datafile,n_jobs=12, redo=redo,save=save)
+    ORG = Organiser(params,datafile,n_jobs=4, redo=redo,save=save)
     return ORG.check_and_execute(_calc_population_decoding)
 
 

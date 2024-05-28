@@ -16,7 +16,7 @@ from reaction_times_functions import (
 ########################################################################
 sim_params = {'randseed':7745,'trials':2000,'N_E':1200,'N_I':300,
               'I_th_E':1.25,'I_th_I':0.78,'Q':6,'rs_stim_amp':0,
-              'n_jobs':12,'conditions':[1,2,3], 'jep':3.2,
+              'n_jobs':4,'conditions':[1,2,3], 'jep':3.2,
                 'jipratio':0.75,'condition_stim_amps':[0.1,0.1,0.1],
                 'rs_stim_amp':0.1,'rs_length':400}
 params = {'sim_params':sim_params}

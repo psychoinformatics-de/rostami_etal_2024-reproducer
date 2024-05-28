@@ -179,7 +179,7 @@ def get_simulated_data(extra_params = {},
     params = {'conditions':[1,2,3],'trials':150,'clusters_per_direction':1,'Q':20,
                 'jep':4,'jipfactor':3/4.,'prep_length':1000,'rs_length':400,
                 'isi':1500,'isi_vari':200,'condition_stim_amps':[0.1,0.1,0.1],
-              'rs_stim_amp':0.1,'n_jobs':12,'cut_window':[-500,2000]}
+              'rs_stim_amp':0.1,'n_jobs':4,'cut_window':[-500,2000]}
 
     for k in list(extra_params.keys()):
         params[k] = extra_params[k]

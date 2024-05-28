@@ -305,7 +305,7 @@ def plot_ff_jep_vs_Q_parallel(params, jep_range=pylab.linspace(1, 4, 41),
 
         
 if __name__ == '__main__':
-    n_jobs = 12
+    n_jobs = 4
     settings = [{'warmup':200,'ff_window':400,'trials':20,
                  'trial_length':400.,'n_jobs':n_jobs,'Q':50,'jipfactor':0.,
                  'jep_range':pylab.arange(1,50.001,0.1),

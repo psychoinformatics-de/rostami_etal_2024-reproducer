@@ -167,7 +167,7 @@ settings = [{'randseed':24,'Q':50,'jipfactor':0.,'jep':3.45,
 
 params['fixed_indegree'] = False
 params['trials'] = 20
-params['n_jobs'] = 20
+params['n_jobs'] = 4
 save = True
 filename = 'fig1_simulated_data'
 ########################################################################

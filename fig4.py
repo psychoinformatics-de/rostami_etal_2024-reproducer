@@ -27,7 +27,7 @@ except:
               'I_th_I': 1.3, 'ff_window': 1000, 'min_vals_cv2': 1,
               'stim_length': 1000, 'isi':0., 'isi_vari': 200,
               'cut_window': [0, 1002], 'rate_kernel': 50., 'warmup': 200}
-    n_jobs = 20
+    n_jobs = 4
     save = True
     plot = False
     redo = False
