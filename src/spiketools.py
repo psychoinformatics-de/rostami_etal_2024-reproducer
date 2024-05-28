@@ -7,7 +7,7 @@ import unittest
 import os
 from scipy.integrate import quad
 from scipy.optimize import fmin
-from scipy import vectorize
+from numpy import vectorize
 import pickle
 import pyximport
 pyximport.install(setup_args={"include_dirs":np.get_include()}, 
