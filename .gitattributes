@@ -2,3 +2,5 @@
 **/.git* annex.largefiles=nothing
 CHANGELOG.md annex.largefiles=nothing
 README.md annex.largefiles=nothing
+*.py annex.largefiles=nothing
+resources/* annex.largefiles=nothing
