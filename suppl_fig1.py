@@ -185,7 +185,7 @@ if __name__ == '__main__':
             if plot:
                 cbar = pylab.colorbar()
                 cbar.set_label('FF', rotation=90,size = 14)
-    pylab.savefig('suppl_fig1.pdf')  
+    pylab.savefig('suppl_fig1.png')  
     #pylab.show()
 
 

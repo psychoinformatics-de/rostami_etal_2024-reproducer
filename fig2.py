@@ -370,7 +370,7 @@ if __name__ == '__main__':
             if plot:
                 cbar = pylab.colorbar()
                 cbar.set_label('FF', rotation=90)
-    pylab.savefig('fig2.pdf', dpi=600)
+    pylab.savefig('fig2.png', dpi=600)
     #pylab.savefig('fig2.eps')
     #pylab.savefig('fig2.png', dpi=300)    
     #pylab.show()

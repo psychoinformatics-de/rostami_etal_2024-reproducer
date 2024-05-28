@@ -491,5 +491,5 @@ if __name__ == '__main__':
                   size=labelsize, y=1.0) 
         plot_RTs(plot_params,redo=redo_model,save=save)
 
-    pylab.savefig('suppl_fig3.pdf')
+    pylab.savefig('suppl_fig3.png')
     pylab.close()

@@ -238,5 +238,5 @@ for setno,setting in enumerate(settings):
         ax.axvline(1500,linestyle = '--',color = (0,0,0),lw = 0.5)
     axes[1].set_xlabel('time [ms]')
 
-pylab.savefig('fig1.pdf',dpi = 300)
+pylab.savefig('fig1.png',dpi = 300)
 #pylab.show()

@@ -274,5 +274,5 @@ if __name__ == '__main__':
         pylab.xlabel(r'time [ms]')
         pylab.ylabel(r'$\mathrm{V_{m}}$ [mV]')
         pylab.xlim(0,1000)
-        pylab.savefig('suppl_fig4.pdf')
+        pylab.savefig('suppl_fig4.png')
 

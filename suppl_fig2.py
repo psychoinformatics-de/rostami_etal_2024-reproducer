@@ -282,6 +282,6 @@ if __name__ == '__main__':
     pylab.sca(count_dist_ax_list[6])
     pylab.xlabel('Spike Count')#
     pylab.ylabel('#')
-    pylab.savefig('suppl_fig2.pdf')
+    pylab.savefig('suppl_fig2.png')
     #pylab.show()
 

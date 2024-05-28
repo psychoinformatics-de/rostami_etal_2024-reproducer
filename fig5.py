@@ -756,7 +756,7 @@ c.insert(pyx.epsfile.epsfile(0, 0.0, "compound_data_fig_cv2_corrected1.eps"))
 i = pyx.bitmap.jpegimage("model.jpg")
 c.insert(pyx.bitmap.bitmap(.7, 1.2,i, compressmode=None,
                            width=3.7*1.2, height=2.5*1.2))
-c.writePDFfile('fig5.pdf')
+c.writePDFfile('fig5.png')
 # remove intemittent files
 os.remove('compound_data_fig_cv2_corrected0.eps')
 os.remove('experiment.eps')

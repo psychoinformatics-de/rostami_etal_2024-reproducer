@@ -227,5 +227,5 @@ for setno,setting in enumerate(settings):
             V_ticks = [-20,0,20,40],I_ticks = [-15,0,15],
             rcparams=rc_params)
 # save the figure
-pylab.savefig('fig3.pdf')
+pylab.savefig('fig3.png')
 

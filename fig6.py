@@ -163,7 +163,7 @@ pylab.ylabel('p.d.f')
 pylab.xlabel('reaction time [ms]')
 pylab.axvline(0,linestyle = '-',color = 'k',lw = 0.5)             
 # save figure
-pylab.savefig('fig6.pdf')
+pylab.savefig('fig6.png')
 #pylab.show()
 
 

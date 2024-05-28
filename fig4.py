@@ -200,7 +200,7 @@ c = pyx.canvas.canvas()
 c.insert(pyx.epsfile.epsfile(0, 0.0, "../data/fig_StimAmp0.eps"))
 c.insert(pyx.epsfile.epsfile(
     .5, 3.8,"preprocessed_and_simulated_data/sketch_ff.eps",scale=0.7))
-c.writePDFfile("fig4.pdf")  
+c.writePDFfile("fig4.png")  
 plt.show()
 # remove intermediate files
 import os
