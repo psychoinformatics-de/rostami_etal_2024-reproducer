@@ -1,0 +1,5 @@
+[submodule "inputs/data"]
+	path = inputs/data
+	url = https://gin.g-node.org/nawrotlab/delayed_center-out_uncertainty_Riehle.git
+	datalad-id = 5616174f-e154-42b2-a623-50c96a102c27
+	datalad-url = https://gin.g-node.org/nawrotlab/delayed_center-out_uncertainty_Riehle.git
