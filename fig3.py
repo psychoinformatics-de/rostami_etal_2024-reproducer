@@ -1,4 +1,4 @@
-import sys;sys.path.append('../src')
+import sys;sys.path.append('src')
 import pylab
 # Local modules (not installed packages)
 import analyse_model

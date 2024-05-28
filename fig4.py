@@ -1,4 +1,4 @@
-import sys; sys.path.append('../src')
+import sys; sys.path.append('src')
 epsilon = sys.float_info.epsilon
 import matplotlib.pyplot as plt
 from matplotlib import pylab

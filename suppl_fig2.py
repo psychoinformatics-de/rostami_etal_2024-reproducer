@@ -1,4 +1,4 @@
-import sys;sys.path.append('../src')
+import sys;sys.path.append('src')
 from matplotlib import pylab
 import pandas as pd
 import numpy as np

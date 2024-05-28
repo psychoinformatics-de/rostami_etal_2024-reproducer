@@ -1,4 +1,4 @@
-import sys;sys.path.append('../src/')
+import sys;sys.path.append('src/')
 import ClusterModelNEST
 import pylab
 import spiketools

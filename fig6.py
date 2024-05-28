@@ -1,4 +1,4 @@
-import sys;sys.path.append('../src')
+import sys;sys.path.append('src')
 import pylab
 from simulate_experiment import get_simulated_data
 import spiketools

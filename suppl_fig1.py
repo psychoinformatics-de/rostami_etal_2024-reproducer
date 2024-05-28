@@ -1,4 +1,4 @@
-import sys;sys.path.append('../src/')
+import sys;sys.path.append('src/')
 import pylab
 import spiketools
 import defaultSimulate as default

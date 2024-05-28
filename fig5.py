@@ -1,4 +1,4 @@
-import sys;sys.path.append('../src')#;sys.path.append('../data')
+import sys;sys.path.append('src')#;sys.path.append('../data')
 from matplotlib import pylab
 import numpy as np
 import os
