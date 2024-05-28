@@ -12,7 +12,7 @@ from GeneralHelper import (
     simpleaxis,colors,text_width_pts)
 import network_schematic
 
-data_path = '../data/preprocessed_and_simulated_data/'
+data_path = 'preprocessed_and_simulated_data/'
 
 # experimental data statistics for Moneky Joe (M1)
 try:

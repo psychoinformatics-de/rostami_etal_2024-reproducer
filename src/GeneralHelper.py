@@ -26,7 +26,7 @@ class TimeoutException(Exception):   # Custom exception class
 
 class Organiser:
     """Organiser class for managing function results and data storage."""
-    def __init__(self, params, datafile, datapath='../data/preprocessed_and_simulated_data/', 
+    def __init__(self, params, datafile, datapath='preprocessed_and_simulated_data/',
                 n_jobs=1, ignore_keys=[''], 
                  reps=None, redo=None, save=True):
         """Initialise the Organiser with the given parameters.

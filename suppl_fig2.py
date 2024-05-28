@@ -8,7 +8,7 @@ from scipy.stats import wilcoxon
 import pickle as pickle
 from GeneralHelper import nice_figure, ax_label1, simpleaxis1
 
-path = '../data/preprocessed_and_simulated_data/'
+path = 'preprocessed_and_simulated_data/'
 
 def do_plot(extra_filters = [],min_count_rate = 5,min_trials  =10,
             tlim = [0,2000],alignment ='TS',ff_ax = None,

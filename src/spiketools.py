@@ -916,7 +916,7 @@ def _get_cv_file(fname):
 def unbiased_cv2(measured_cv2,ot,precission=3):
     """ same as correct_cv2 but with file memory."""
     current_path = os.path.abspath(__file__)
-    full_path = os.path.join(os.path.split(current_path)[0],'..','data')
+    full_path = os.path.join(os.path.split(current_path)[0],'..','preprocessed_and_simulated_data')
     cv_bias_lookup_fname = 'cv2_bias_lookup'
     if not pylab.isfinite(measured_cv2):
         return measured_cv2

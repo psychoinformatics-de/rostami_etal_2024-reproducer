@@ -18,7 +18,7 @@ from GeneralHelper import (
 )
 
 
-path = '../data/preprocessed_and_simulated_data/'
+path = 'preprocessed_and_simulated_data/'
 
 ########################################
 ########### EXPERIMENT #################

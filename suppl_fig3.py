@@ -11,7 +11,7 @@ from reaction_times_functions import (
 import numpy as np
 from GeneralHelper import (
     find, nice_figure, ax_label1, simpleaxis1)
-path = '../data/preprocessed_and_simulated_data/'
+path = 'preprocessed_and_simulated_data/'
 def do_plot(extra_filters = [],min_count_rate = 5,min_trials  =10,tlim = [0,2000],
                 alignment ='TS',ff_ax = None,cv2_ax = None,dir_score_ax = None,
                 pop_score_ax=None,rate_ax=None,RTs_ax=None,

@@ -12,7 +12,7 @@ from GeneralHelper import (
     nice_figure, simpleaxis, ax_label1, CB_color_cycle)
 from analyse_model import get_analysed_spiketimes
 
-data_path = '../data/preprocessed_and_simulated_data/'
+data_path = 'preprocessed_and_simulated_data/'
 datafile = 'fig4_simulated_data'
 file_name_analysis_sw = datafile + '_analyses'
 trial = 1
@@ -199,7 +199,7 @@ import pyx
 c = pyx.canvas.canvas()
 c.insert(pyx.epsfile.epsfile(0, 0.0, "../data/fig_StimAmp0.eps"))
 c.insert(pyx.epsfile.epsfile(
-    .5, 3.8,"../data/preprocessed_and_simulated_data/sketch_ff.eps",scale=0.7))
+    .5, 3.8,"preprocessed_and_simulated_data/sketch_ff.eps",scale=0.7))
 c.writePDFfile("fig4.pdf")  
 plt.show()
 # remove intermediate files

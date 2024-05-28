@@ -17,7 +17,7 @@ from GeneralHelper import ( Organiser,
 )
 
 
-datapath = '../data/preprocessed_and_simulated_data/'
+datapath = 'preprocessed_and_simulated_data/'
 datafile = 'fig2_simulated_data'
 
 def get_spikes_fig2(params):
