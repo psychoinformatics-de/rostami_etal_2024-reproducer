@@ -2,3 +2,6 @@
 	id = 11e6993c-b63f-4ddc-a4f2-ecc33b841632
 [datalad "run.substitutions"]
 	python = python
+[datalad "containers.docker"]
+	image = container/image
+	cmdexec = {{python}} -m datalad_container.adapters.docker run {img} bash -c 'mkdir -p /tmp/dockertmp && export HOME=/tmp/dockertmp && . /opt/conda/etc/profile.d/conda.sh && conda activate base && export LD_LIBRARY_PATH=:/usr/local/lib && export CFLAGS=-I/usr/local/include && export LDFLAGS=-L/usr/local/lib && conda activate ClusteredNetwork_pub && {cmd} && rm -rf /tmp/dockertmp'
