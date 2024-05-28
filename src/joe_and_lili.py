@@ -6,8 +6,8 @@ import pylab
 import numpy as np
 import pandas as pd
 import numpy as np
-gdf_path = '../data/'
-pickle_path = os.path.join(gdf_path,'experimental_data')
+gdf_path = 'preprocessed_and_simulated_data/'
+pickle_path = 'inputs/data/pickle'
 
 
 def find(condition):
@@ -233,7 +233,7 @@ def gdf2pickle(fname,outpath,cut_window = [0,3000]):
      
 def get_toc(filters = standard_filters,extra_filters = []):
     
-    dpath = '../data/experimental_data/'
+    dpath = pickle_path
     if 'toc' in os.listdir(dpath):
         toc = pd.read_pickle(os.path.join(dpath,'toc'))
     else:
