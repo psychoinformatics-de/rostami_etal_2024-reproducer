@@ -283,5 +283,5 @@ if __name__ == '__main__':
     pylab.xlabel('Spike Count')#
     pylab.ylabel('#')
     pylab.savefig('suppl_fig2.pdf')
-    pylab.show()
+    #pylab.show()
 

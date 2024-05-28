@@ -239,4 +239,4 @@ for setno,setting in enumerate(settings):
     axes[1].set_xlabel('time [ms]')
 
 pylab.savefig('fig1.pdf',dpi = 300)
-pylab.show()
+#pylab.show()

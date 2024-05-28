@@ -565,7 +565,7 @@ if __name__ == '__main__':
 
     
     
-    pylab.show()
+    #pylab.show()
 
     
 

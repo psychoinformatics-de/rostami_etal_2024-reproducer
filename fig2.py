@@ -373,7 +373,7 @@ if __name__ == '__main__':
     pylab.savefig('fig2.pdf', dpi=600)
     #pylab.savefig('fig2.eps')
     #pylab.savefig('fig2.png', dpi=300)    
-    pylab.show()
+    #pylab.show()
 
 
 

@@ -94,7 +94,7 @@ spiketimes = spiketools.cut_spiketimes(
     tlim = pylab.array(cut_window)+trial_starts[plot_trial])
 spiketimes[0] -= trial_starts[plot_trial]
 pylab.plot(spiketimes[0],spiketimes[1],'.',ms =0.5,color = '0.5')
-pylab.show()
+#pylab.show()
 pylab.xlim(cut_window)
 Q = params['sim_params']['Q']
 N_E = params['sim_params']['N_E']
@@ -164,7 +164,7 @@ pylab.xlabel('reaction time [ms]')
 pylab.axvline(0,linestyle = '-',color = 'k',lw = 0.5)             
 # save figure
 pylab.savefig('fig6.pdf')
-pylab.show()
+#pylab.show()
 
 
 
